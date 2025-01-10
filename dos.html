@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Close Tabs</title>
+  <title>Infinite Loop</title>
 </head>
 <body>
-  <h1>Closing Tab...</h1>
+  <h1>Starting Infinite Loop...</h1>
   <script>
-    // Attempt to close the current tab
-    window.open('', '_self'); // Switch to the same window
-    window.close(); // Close the window
+    while (true) {
+      console.log(Math.random() * Math.random()); // Endless CPU-intensive computation
+    }
   </script>
 </body>
 </html>
-
