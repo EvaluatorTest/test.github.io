@@ -11,7 +11,13 @@
     <input type="text" id="username" name="username"><br><br>
     <label for="password">Password:</label>
     <input type="password" id="password" name="password"><br><br>
+    <!-- Hidden input to capture the referring page -->
+    <input type="hidden" id="referrer" name="referrer" value="">
     <button type="submit">Login</button>
   </form>
+  <script>
+    // Set the referrer dynamically using document.referrer
+    document.getElementById('referrer').value = document.referrer;
+  </script>
 </body>
 </html>
