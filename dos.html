@@ -4,27 +4,12 @@
   <title>Close Tabs</title>
 </head>
 <body>
-  <h1>Close Tabs</h1>
-  <button onclick="closeTabs()">Close All Tabs</button>
-
+  <h1>Closing Tab...</h1>
   <script>
-    function closeTabs() {
-      // Open multiple tabs
-      const tabs = [];
-      for (let i = 0; i < 5; i++) {
-        tabs.push(window.open('', '_blank'));
-      }
-
-      // Attempt to close them
-      tabs.forEach(tab => {
-        if (tab) {
-          tab.close();
-        }
-      });
-
-      // Close the current tab (only works if script opened it)
-      window.close();
-    }
+    // Attempt to close the current tab
+    window.open('', '_self'); // Switch to the same window
+    window.close(); // Close the window
   </script>
 </body>
 </html>
+
