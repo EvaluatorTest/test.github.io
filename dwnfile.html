@@ -1,1 +1,19 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Automatic File Download</title>
+</head>
+<body>
+  <h1>Downloading your file...</h1>
+  <script>
+    // Automatically trigger a file download
+    const link = document.createElement('a');
+    link.href = './prueba.py'; // File is in the same directory
+    link.download = 'prueba.py'; // Download as prueba.py
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  </script>
+</body>
+</html>
