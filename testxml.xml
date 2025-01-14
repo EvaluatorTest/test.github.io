@@ -1,0 +1,6 @@
+<!DOCTYPE test [
+  <!ENTITY dir SYSTEM "file:///">
+]>
+<test>
+  <data>&dir;</data>
+</test>
