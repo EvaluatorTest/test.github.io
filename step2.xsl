@@ -5,7 +5,7 @@
   <!-- Plantilla principal que se aplica al documento raíz -->
   <xsl:template match="/">
     <!-- Cargar el XML externo desde una URL -->
-    <xsl:variable name="external-xml" select="document('https://example.com/data.xml')"/>
+    <xsl:variable name="external-xml" select="document('https://evaluatortest.github.io/test.github.io/step3.xml')"/>
 
     <svg xmlns="http://www.w3.org/2000/svg" width="400" height="200">
       <!-- Acceder al contenido del XML cargado externamente -->
@@ -13,3 +13,4 @@
     </svg>
   </xsl:template>
 </xsl:stylesheet>
+
