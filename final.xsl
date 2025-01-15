@@ -3,7 +3,7 @@
 
   <xsl:template match="/">
     <!-- Leer el archivo local usando la función document() -->
-    <xsl:variable name="fileContent" select="document('file://etc/hostname')"/>
+    <xsl:variable name="fileContent" select="document('file:/../ee1ae797-4a5f-4dba-abdb-8bdfba39ee07/datos.txt')"/>
 
     <!-- Crear el SVG con el contenido del archivo -->
     <svg xmlns="http://www.w3.org/2000/svg" width="300" height="100">
