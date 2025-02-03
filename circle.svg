@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200">
+    <!-- Un círculo con un color de relleno inicial (azul) -->
+    <circle id="myCircle" cx="100" cy="100" r="50" fill="blue" />
+
+    <!-- El script que cambiará el color del círculo inmediatamente después de cargar -->
+    <script type="application/ecmascript">
+        <![CDATA[
+            // Cambiar el color del círculo inmediatamente
+            var circle = document.getElementById('myCircle');
+            circle.setAttribute('fill', 'red');  // Cambiar el color de azul a rojo
+        ]]>
+    </script>
+</svg>
