@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200">
+  <foreignObject x="10" y="10" width="180" height="180">
+    <body xmlns="http://www.w3.org/1999/xhtml">
+      <h1 style="color: red;">Hello from HTML inside SVG</h1>
+      <p>This is HTML content embedded inside an SVG.</p>
+    </body>
+  </foreignObject>
+</svg>
