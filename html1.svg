@@ -1,0 +1,6 @@
+<html>
+	<body>
+		<div style="width: 200px; height: 200px; background: url('data:image/png;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIj4KICA8Zm9yZWlnbk9iamVjdCB4PSIxMCIgeT0iMTAiIHdpZHRoPSIxODAiIGhlaWdodD0iMTgwIj4KICAgIDxib2R5IHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hodG1sIj4KICAgICAgPGgxIHN0eWxlPSJjb2xvcjogcmVkOyI+SGVsbG8gZnJvbSBIVE1MIGluc2lkZSBTVkc8L2gxPgogICAgICA8cD5UaGlzIGlzIEhUTUwgY29udGVudCBlbWJlZGRlZCBpbnNpZGUgYW4gU1ZHLjwvcD4KICAgIDwvYm9keT4KICA8L2ZvcmVpZ25PYmplY3Q+Cjwvc3ZnPg==') no-repeat;">
+		</div>
+	</body>
+</html>
