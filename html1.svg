@@ -1,6 +1,24 @@
-<html>
-	<body>
-		<div style="width: 200px; height: 200px; background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIj4KICA8Zm9yZWlnbk9iamVjdCB4PSIxMCIgeT0iMTAiIHdpZHRoPSIxODAiIGhlaWdodD0iMTgwIj4KICAgIDxib2R5IHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hodG1sIj4KICAgICAgPGgxIHN0eWxlPSJjb2xvcjogcmVkOyI+SGVsbG8gZnJvbSBIVE1MIGluc2lkZSBTVkc8L2gxPgogICAgICA8c2NyaXB0PgogICAgICAgIGFsZXJ0KCIxIik7CiAgICAgIDwvc2NyaXB0PgogICAgICA8cD5UaGlzIGlzIEhUTUwgY29udGVudCBlbWJlZGRlZCBpbnNpZGUgYW4gU1ZHLjwvcD4KICAgIDwvYm9keT4KICA8L2ZvcmVpZ25PYmplY3Q+Cjwvc3ZnPg==') no-repeat;">
-		</div>
-	</body>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejemplo de iframe</title>
+</head>
+<body>
+
+  <h1>Ejemplo de uso de iframe</h1>
+
+  <p>Este es un ejemplo de un iframe que carga un sitio web externo:</p>
+
+  <iframe 
+    src="https://www.google.com" 
+    width="600" 
+    height="400" 
+    title="Página de ejemplo">
+  </iframe>
+
+  <p>Este iframe carga la página de "example.com" dentro de esta página HTML.</p>
+
+</body>
 </html>
